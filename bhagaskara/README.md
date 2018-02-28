@@ -1,7 +1,7 @@
 # Bhagaskara
-## in progres
+## in progress
 
-Created in oder to practice.
+Created in order to practice.
 
 Used: [PSD template](https://www.behance.net/gallery/16872707/Bhagaskara-Onepage-PSD-Template), HTML5, CSS3, JS
 
