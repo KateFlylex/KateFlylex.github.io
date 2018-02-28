@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Свойства объекта Document</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+
+function makeArmy() {
+
+  var shooters = [];
+
+  
+    var shooter = function() { 
+    for (var i = 0; i < 10; i++) {// функция-стрелок
+      //alert( i ); // выводит свой номер
+      return i;
+    };
+
+    shooters.push(shooter());
+    console.log(shooters);
+  }
+  
+  return shooters;
+}
+
+var army = makeArmy();
+
+army[0](); // стрелок выводит 10, а должен 0
+army[5](); // стрелок выводит 10...
+// .. все стрелки выводят 10 вместо 0,1,2...9
+        </script>
+    </body>
+</html>
