@@ -102,6 +102,9 @@ header {
 .icon-img {
   display: inline-block; }
 
+.mob-menu-icon-center, .mob-menu-icon-left, .mob-menu-icon-right {
+  display: none; }
+
 #menu-icon-services {
   background: url("../img/services.png");
   width: 171px;
@@ -214,28 +217,38 @@ header {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   header {
     height: 100%;
-    min-height: 300px;
+    min-height: 1600px;
     background: url("../img/layer2.png");
     background-size: auto 100%;
     background-position: center center; }
 
   h1 {
-    font-size: 500%;
-    padding: 15% 0 6%; }
+    font-size: 450%;
+    padding: 6% 0 2%; }
 
   h2 {
-    font-size: 400%;
-    padding: 4% 0 4%; }
-
-  h3 {
     font-size: 300%;
     padding: 3% 0 3%; }
+
+  h3 {
+    font-size: 250%;
+    padding: 2% 0 2%; }
+
+  .mob-menu-icon-center, .mob-menu-icon-left, .mob-menu-icon-right {
+    display: block; }
+
+  #menu-icon-services, #menu-icon-portfolio, #menu-icon-about, #menu-icon-team, #menu-icon-blog, #menu-icon-сontact {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+    width: 230px;
+    height: 230px; }
 
   .menu-icon-second-row, .menu-icon-center {
     display: none; }
 
   .scroller {
-    margin: 20% 0; } }
+    margin: 5% 0; } }
 /* NAVIGATION BAR */
 nav {
   width: 100%;
